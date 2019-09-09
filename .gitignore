@@ -1,0 +1,12 @@
+Debug
+Deploy
+packages
+obj
+bin
+*.suo
+*.csproj.user
+*.ddd
+v15
+logs
+.vs
+/IPRSvrAPI/Properties/PublishProfiles

@@ -1,0 +1,109 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IPRSvrAPI", "IPRSvrAPI\IPRSvrAPI.csproj", "{ACFC08D3-177F-4D85-A2F2-432BC6096470}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{E7ADA530-386D-456F-B09B-A511D0F8FCDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{26E032D9-4D1C-4D75-A62D-7D5F9DDC5649}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagon.Data", "Data\Hexagon.Data\Hexagon.Data.csproj", "{792439C7-8B26-41C9-8CD4-61B6F81D171F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagon.Data.DataAccess", "Data\Hexagon.Data.DataAccess\Hexagon.Data.DataAccess.csproj", "{F049F896-8346-4100-A1A6-D5077137451D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagon.Data.Repository", "Data\Hexagon.Data.Repository\Hexagon.Data.Repository.csproj", "{AA380A16-A2C1-44F7-8889-A564F490386B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagon.IService", "Service\Hexagon.IService\Hexagon.IService.csproj", "{691FEB80-62A2-42DE-AA8F-F92210FB2C4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagon.Service", "Service\Hexagon.Service\Hexagon.Service.csproj", "{180FB6BE-02E8-4EFF-AB47-CA36CB2707FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagon.Util", "Data\Hexagon.Util\Hexagon.Util.csproj", "{CA546826-F1E3-4323-AD4E-FF2AB5B3437D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceWS", "ServiceWS", "{695AD38D-59B3-4120-AA51-496A99E0CED7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagon.ServiceWS.FactSvr", "Service\Hexagon.ServiceWS\Hexagon.ServiceWS.FactSvr\Hexagon.ServiceWS.FactSvr.csproj", "{2D30B52F-44B3-4234-A5FC-E875B0B23B45}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagon.ServiceWS.OperationSvr", "Service\Hexagon.ServiceWS\Hexagon.ServiceWS.OperationSvr\Hexagon.ServiceWS.OperationSvr.csproj", "{115723EE-5D3C-4583-8636-F6DF3D019610}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagon.ServiceWS.OrganizationChartSvr", "Service\Hexagon.ServiceWS\Hexagon.ServiceWS.OrganizationChartSvr\Hexagon.ServiceWS.OrganizationChartSvr.csproj", "{429A80D7-9DC8-4059-BE0A-4DFFF4C6070C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagon.Entity", "Data\Hexagon.Entity\Hexagon.Entity.csproj", "{925AFBAC-A0AF-46E3-9904-B2A065009057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPRSvrAPI.Tests", "IPRSvrAPI.Tests\IPRSvrAPI.Tests.csproj", "{662C69D4-3D98-4DC6-8570-7BC41857F2F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACFC08D3-177F-4D85-A2F2-432BC6096470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACFC08D3-177F-4D85-A2F2-432BC6096470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACFC08D3-177F-4D85-A2F2-432BC6096470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACFC08D3-177F-4D85-A2F2-432BC6096470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{792439C7-8B26-41C9-8CD4-61B6F81D171F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{792439C7-8B26-41C9-8CD4-61B6F81D171F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{792439C7-8B26-41C9-8CD4-61B6F81D171F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{792439C7-8B26-41C9-8CD4-61B6F81D171F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F049F896-8346-4100-A1A6-D5077137451D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F049F896-8346-4100-A1A6-D5077137451D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F049F896-8346-4100-A1A6-D5077137451D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F049F896-8346-4100-A1A6-D5077137451D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA380A16-A2C1-44F7-8889-A564F490386B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA380A16-A2C1-44F7-8889-A564F490386B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA380A16-A2C1-44F7-8889-A564F490386B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA380A16-A2C1-44F7-8889-A564F490386B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691FEB80-62A2-42DE-AA8F-F92210FB2C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691FEB80-62A2-42DE-AA8F-F92210FB2C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691FEB80-62A2-42DE-AA8F-F92210FB2C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691FEB80-62A2-42DE-AA8F-F92210FB2C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{180FB6BE-02E8-4EFF-AB47-CA36CB2707FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180FB6BE-02E8-4EFF-AB47-CA36CB2707FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180FB6BE-02E8-4EFF-AB47-CA36CB2707FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180FB6BE-02E8-4EFF-AB47-CA36CB2707FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA546826-F1E3-4323-AD4E-FF2AB5B3437D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA546826-F1E3-4323-AD4E-FF2AB5B3437D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA546826-F1E3-4323-AD4E-FF2AB5B3437D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA546826-F1E3-4323-AD4E-FF2AB5B3437D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D30B52F-44B3-4234-A5FC-E875B0B23B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D30B52F-44B3-4234-A5FC-E875B0B23B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D30B52F-44B3-4234-A5FC-E875B0B23B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D30B52F-44B3-4234-A5FC-E875B0B23B45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{115723EE-5D3C-4583-8636-F6DF3D019610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{115723EE-5D3C-4583-8636-F6DF3D019610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{115723EE-5D3C-4583-8636-F6DF3D019610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{115723EE-5D3C-4583-8636-F6DF3D019610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{429A80D7-9DC8-4059-BE0A-4DFFF4C6070C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{429A80D7-9DC8-4059-BE0A-4DFFF4C6070C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{429A80D7-9DC8-4059-BE0A-4DFFF4C6070C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{429A80D7-9DC8-4059-BE0A-4DFFF4C6070C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925AFBAC-A0AF-46E3-9904-B2A065009057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925AFBAC-A0AF-46E3-9904-B2A065009057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925AFBAC-A0AF-46E3-9904-B2A065009057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925AFBAC-A0AF-46E3-9904-B2A065009057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{662C69D4-3D98-4DC6-8570-7BC41857F2F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{662C69D4-3D98-4DC6-8570-7BC41857F2F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{662C69D4-3D98-4DC6-8570-7BC41857F2F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{662C69D4-3D98-4DC6-8570-7BC41857F2F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{792439C7-8B26-41C9-8CD4-61B6F81D171F} = {E7ADA530-386D-456F-B09B-A511D0F8FCDE}
+		{F049F896-8346-4100-A1A6-D5077137451D} = {E7ADA530-386D-456F-B09B-A511D0F8FCDE}
+		{AA380A16-A2C1-44F7-8889-A564F490386B} = {E7ADA530-386D-456F-B09B-A511D0F8FCDE}
+		{691FEB80-62A2-42DE-AA8F-F92210FB2C4E} = {26E032D9-4D1C-4D75-A62D-7D5F9DDC5649}
+		{180FB6BE-02E8-4EFF-AB47-CA36CB2707FB} = {26E032D9-4D1C-4D75-A62D-7D5F9DDC5649}
+		{CA546826-F1E3-4323-AD4E-FF2AB5B3437D} = {E7ADA530-386D-456F-B09B-A511D0F8FCDE}
+		{2D30B52F-44B3-4234-A5FC-E875B0B23B45} = {695AD38D-59B3-4120-AA51-496A99E0CED7}
+		{115723EE-5D3C-4583-8636-F6DF3D019610} = {695AD38D-59B3-4120-AA51-496A99E0CED7}
+		{429A80D7-9DC8-4059-BE0A-4DFFF4C6070C} = {695AD38D-59B3-4120-AA51-496A99E0CED7}
+		{925AFBAC-A0AF-46E3-9904-B2A065009057} = {E7ADA530-386D-456F-B09B-A511D0F8FCDE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {076761A0-9248-48F0-9555-40FA98FDAA39}
+	EndGlobalSection
+EndGlobal
